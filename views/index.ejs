@@ -1,0 +1,10 @@
+<h2>Realm Blog!</h2>
+
+<!--Create a link to write-->
+<a href="/write">Write</a>
+
+<% for (var i=0; i<posts.length; i++) {%>
+<!--Print post title, content-->
+<h3><%= posts[i].title%></h3>
+<p><%= posts[i].content%></p>
+<% } %>
